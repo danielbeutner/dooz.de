@@ -1,0 +1,28 @@
+{
+	"name": "@dooz/page",
+	"private": true,
+	"description": "dooz.de",
+	"version": "0.0.1",
+	"author": "Daniel Beutner <daniel@beutner.dev>",
+	"bugs": {
+		"url": "https://github.com/danielbeutner/dooz.de/issues"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^1.0.2",
+		"prettier": "^2.7.1"
+	},
+	"homepage": "https://dooz.de",
+	"keywords": [
+		"page"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:danielbeutner/dooz.de.git"
+	},
+	"scripts": {
+		"format": "prettier --write src/**/*.{js,jsx}",
+		"start": "npm run dev",
+		"build": "npx @11ty/eleventy"
+	}
+}
