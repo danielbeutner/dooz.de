@@ -1,0 +1,13 @@
+html,
+body {
+	all: unset;
+	background-color: #333;
+	display: grid;
+	height: 100%;
+	font-family: monospace;
+}
+
+main {
+	color: #fff;
+	margin: auto;
+}
